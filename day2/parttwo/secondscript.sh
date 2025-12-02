@@ -1,0 +1,1 @@
+cat "secondpass.txt" | grep -P "^(.+)\1+$" > allnums.txt
